@@ -1,0 +1,31 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2.subtitle{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color:blueviolet;
+}
+
+#tag,#Attribute{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: antiquewhite;
+}
+
+td,th{
+    border-block:solid;
+}
+
+th{
+    background-color: violet;
+}
+
+table{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    display:inline-block;
+}
