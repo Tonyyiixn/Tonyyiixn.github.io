@@ -1,0 +1,91 @@
+.colors{
+    border: 1px solid red;
+}
+
+.colorslayout{
+    display: flex;
+}
+.coolblue{
+    background-color: #2d5dcc;
+    color:white;
+    text-align: center;
+    padding: 5px 5px;
+    margin: 10px 10px;
+    width: 20%;
+}
+
+.pink{
+    background-color: #d957d9;
+    color:black;
+    text-align: center;
+    padding: 5px 5px;
+    margin: 10px 10px;
+    width: 20%;
+}
+
+.mintgreen{
+    background-color: #4fe0b0;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    padding: 5px 5px;
+    margin: 10px 10px;
+    width: 20%;
+}
+
+.beige{
+    background-color: #efd9ca;
+    color:black;
+    text-align: center;
+    padding: 5px 5px;
+    margin: 10px 10px;
+    width: 20%;
+}
+
+.fonts{
+    border: 1px solid red;
+}
+
+.textstyles{
+    border: 1px solid red;
+}
+.Source-Code-Pro{
+    font-family: 'Source Code Pro';
+}
+
+.Nunito-Sans{
+    font-family: 'Nunito Sans';
+}
+
+.Poppins{
+    font-family: Poppins;
+}
+.bold{
+    font-weight:700;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.subtitle{
+    text-decoration: underline;
+}
+
+h1#main-page {
+    font-weight: 700 ;
+    font-size: 26px;
+    font-family: 'Nunito Sans';
+}
+
+h2#subhead{
+    font-weight: 500;
+    font-size: 18px;
+    font-family: Poppins;
+}
+
+p#paragraph{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: Poppins;
+}
+
