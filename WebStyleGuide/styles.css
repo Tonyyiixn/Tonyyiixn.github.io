@@ -1,10 +1,12 @@
 .colors{
     border: 1px solid red;
+    position: static;
 }
 
 .colorslayout{
     display: flex;
 }
+
 .coolblue{
     background-color: #2d5dcc;
     color:white;
@@ -41,6 +43,41 @@
     width: 20%;
 }
 
+.coolblue#button:hover{
+    background-color: #1d90a4;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    padding: 6px 6px;
+    margin: 12px 12px;
+    width: 22%;
+}
+
+.pink#button:hover{
+    background-color: #a41da4;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    padding: 6px 6px;
+    margin: 12px 12px;
+    width: 22%;
+}
+
+.mintgreen#button:hover{
+    background-color: #57a820;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    padding: 6px 6px;
+    margin: 12px 12px;
+    width: 22%;
+}
+
+.beige#button:hover{
+    background-color: #655024;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    padding: 6px 6px;
+    margin: 12px 12px;
+    width: 22%;
+}
 .fonts{
     border: 1px solid red;
 }
@@ -68,9 +105,13 @@
 }
 
 .subtitle{
+    color:black;
     text-decoration: underline;
+    cursor: pointer;
 }
-
+.subtitle:hover{
+    text-decoration: none;
+}
 h1#main-page {
     font-weight: 700 ;
     font-size: 26px;
@@ -88,4 +129,6 @@ p#paragraph{
     font-size: 14px;
     font-family: Poppins;
 }
+
+
 
