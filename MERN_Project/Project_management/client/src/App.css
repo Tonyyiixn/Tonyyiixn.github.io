@@ -1,0 +1,92 @@
+/*author:Yixin Chen*/
+.input {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  padding: auto;
+  background-color: rgba(0, 114, 74, 0.9);
+  justify-content: center;
+  align-items: center;
+}
+
+/*a container*/
+
+.text {
+  display: grid;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+/*first name,last name...etc*/
+
+.click {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/*control submit button and navigation button*/
+
+button {
+  margin-bottom: 10px;
+  width: auto;
+  height: auto;
+  font-size: 20px;
+}
+
+/*submit button original style*/
+
+button:hover {
+  background-color: rgba(0, 114, 74, 0.3);
+  color: white;
+  cursor: pointer;
+}
+
+/*submit button when hover*/
+
+.nav {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  text-decoration: underline;
+  text-align: center;
+  background-color: rgba(170, 206, 194, 0.6);
+}
+
+/*navigation button original style*/
+
+.nav:hover {
+  font-size: 20px;
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+/*navigatioin button when hover*/
+
+/* .navlink:hover {
+  font-size: 20px;
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+} */
+
+/*navigatioin button when hover*/
+
+table {
+  border: 1px, solid, black;
+  margin: auto;
+}
+
+th,
+td {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 8px 10px;
+  background-color: white;
+}
